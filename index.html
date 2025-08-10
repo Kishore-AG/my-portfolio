@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore A G | Personal Portfolio</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">
+    <img src="logo.png" alt="KAG Monogram Logo">
+</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+    <div class="home-content">
+        <img src="kishore.jpg" alt="Kishore A G" class="profile-photo" data-aos="fade-up">
+        <h1 data-aos="fade-in" data-aos-delay="200">Kishore A G</h1>
+        <p class="tagline"></p>
+        <p class="location" data-aos="fade-up" data-aos-delay="400"><i class="fas fa-map-marker-alt"></i> Chidambaram, India</p>
+        
+        <a href="Kishore-A-G-resume.pdf" class="btn" download data-aos="fade-up" data-aos-delay="600">
+            <i class="fas fa-download"></i> Resume
+        </a>
+    </div>
+</section>
+
+        <section id="about">
+            <h2 data-aos="fade-right">About Me</h2>
+            <p data-aos="fade-up">
+                I am a dedicated B.Tech student at VIT Chennai specializing in Artificial Intelligence and Machine Learning, driven by a passion for problem-solving and innovation. My academic journey has strengthened my foundation in software development while fostering a mindset of continuous learning. I value teamwork, adaptability, and a forward-thinking approach, aiming to apply my knowledge to create impactful solutions and contribute meaningfully to the evolving tech landscape.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2 data-aos="fade-left">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="100"><i class="fab fa-python"></i><span>Python</span></div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="200"><i class="fab fa-java"></i><span>Java</span></div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="300"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="400"><i class="fas fa-database"></i><span>SQL</span></div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="500"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="600"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            </div>
+        </section>
+
+        <section id="technologies">
+            <h2 data-aos="fade-right">Technologies</h2>
+            <div class="skills-grid">
+        <div class="skill-item" data-aos="fade-up" data-aos-delay="100"><i class="fas fa-chart-pie"></i><span>Chart.js</span></div>
+        <div class="skill-item" data-aos="fade-up" data-aos-delay="200"><i class="fas fa-rocket"></i><span>GSAP</span></div>
+        <div class="skill-item" data-aos="fade-up" data-aos-delay="300"><i class="fas fa-layer-group"></i><span>Streamlit</span></div>
+        <div class="skill-item" data-aos="fade-up" data-aos-delay="400"><i class="fas fa-brain"></i><span>LangChain</span></div>
+        <div class="skill-item" data-aos="fade-up" data-aos-delay="500"><i class="fas fa-database"></i><span>ChromaDB</span></div>
+        <div class="skill-item" data-aos="fade-up" data-aos-delay="600"><i class="fas fa-robot"></i><span>Gemini AI</span></div>
+    </div>
+        </section>
+        
+        <section id="education">
+            <h2 data-aos="fade-left">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-content">
+                        <h3>Vellore Institute of Technology, Chennai</h3>
+                        <p>B.Tech in Artificial Intelligence & Machine Learning</p>
+                        <span class="date">2022 - 2026</span>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-content">
+                        <h3>Nirmala Matriculation Higher Secondary School, Chidambaram</h3>
+                        <p>Higher Secondary Education</p>
+                        <span class="date">2008 - 2023</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+    <h2 data-aos="fade-right">Projects</h2>
+    <div class="projects-grid">
+        <article class="project-card" data-aos="fade-up">
+            <h3>PennyPilot - Personal Finance Dashboard</h3>
+            <p>A web application designed for financial tracking. Features interactive data visualizations with Chart.js, engaging animations using GSAP, and utilizes localStorage for data persistence.</p>
+        </article>
+        <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <h3>SamvidhanAI - Legal Assistant Chatbot</h3>
+            <p>A legal chatbot that uses Retrieval-Augmented Generation (RAG) with Google Gemini AI. Built with a Streamlit interface, LangChain, and ChromaDB.</p>
+        </article>
+    </div>
+</section>
+        
+        <section id="contact">
+            <h2 data-aos="fade-left">Get In Touch</h2>
+            <p data-aos="fade-up">Feel free to reach out. I'm always open to discussing new projects, creative ideas, or opportunities.</p>
+            <div class="contact-links" data-aos="fade-up" data-aos-delay="200">
+                <a href="mailto:kishoreag22@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://linkedin.com/in/kishore-ag" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/kishore-ag" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="tel:+919361452105"><i class="fas fa-phone"></i> Phone</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kishore A G. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
